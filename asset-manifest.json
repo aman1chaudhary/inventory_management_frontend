@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/inventory_management_frontend/static/css/main.ce71afae.css",
+    "main.js": "/inventory_management_frontend/static/js/main.ad9eaec6.js",
+    "static/media/map3.jpeg": "/inventory_management_frontend/static/media/map3.53613caae596f88edc0a.jpeg",
+    "static/media/map2.jpeg": "/inventory_management_frontend/static/media/map2.49b5216956d44fc87afe.jpeg",
+    "static/media/logo.png": "/inventory_management_frontend/static/media/logo.4fc1146151b4a9c8801a.png",
+    "static/media/4.jpg": "/inventory_management_frontend/static/media/4.0f80a57c0e48cf7725fa.jpg",
+    "static/media/1.jpg": "/inventory_management_frontend/static/media/1.c0f5f512285fad48c253.jpg",
+    "static/media/3.jpg": "/inventory_management_frontend/static/media/3.081be835cbbcb2c1ffe8.jpg",
+    "static/media/2.jpg": "/inventory_management_frontend/static/media/2.7d5f3291fb2953c46a6c.jpg",
+    "static/media/6.jpg": "/inventory_management_frontend/static/media/6.09148156d9c4b31939df.jpg",
+    "static/media/7.jpg": "/inventory_management_frontend/static/media/7.b85f8dc7b67d71bbd5e0.jpg",
+    "static/media/8.jpg": "/inventory_management_frontend/static/media/8.f381417a8c5a36e9f8a1.jpg",
+    "static/media/5.jpg": "/inventory_management_frontend/static/media/5.4db77489fbd8618ac8af.jpg",
+    "static/media/marker-icon.png": "/inventory_management_frontend/static/media/marker-icon.d1d5ff99f264c4f1b8fb.png",
+    "index.html": "/inventory_management_frontend/index.html",
+    "main.ce71afae.css.map": "/inventory_management_frontend/static/css/main.ce71afae.css.map",
+    "main.ad9eaec6.js.map": "/inventory_management_frontend/static/js/main.ad9eaec6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce71afae.css",
+    "static/js/main.ad9eaec6.js"
+  ]
+}

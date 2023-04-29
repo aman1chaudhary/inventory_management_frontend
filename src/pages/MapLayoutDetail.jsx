@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { ZonesLayout } from '../Data/Data';
 import { Link } from 'react-router-dom';
-
+import { BACKEND_URL } from '../components/BackendURL';
 
 const MapLayoutDetail = () => {
     const { ZoneName } = useParams();
@@ -17,7 +17,7 @@ const MapLayoutDetail = () => {
     const [inventory, setInventory] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:9002/inventory')
+        fetch(`${BACKEND_URL}/inventory`)
             .then(response => response.json())
             .then(data => setInventory(data))
             .catch(error => console.log(error));

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
+import { BACKEND_URL } from '../components/BackendURL';
 
 const AddInventory = () => {
     const navigate = useNavigate();
@@ -26,7 +27,7 @@ const AddInventory = () => {
         const { name, category, brand_name, availability_zone, model_number, description, image } = inventory;
         if (name && category && brand_name && availability_zone && model_number && description && image) {
             axios
-                .post("http://localhost:9002/add-inventory", inventory)
+            .post(`${BACKEND_URL}/add-inventory`, inventory)
                 .then((res) => {
                     alert(res.data.message);
                     navigate("/inventory");

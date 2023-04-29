@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
+import { BACKEND_URL } from "./BackendURL"
 
 const Login = ({ setLoginUser }) => {
     const navigate = useNavigate()
@@ -17,9 +18,10 @@ const Login = ({ setLoginUser }) => {
             [name]: value
         })
     }
+    console.log(BACKEND_URL)
 
     const login = () => {
-        axios.post("http://localhost:9002/login", user)
+        axios.post(`${BACKEND_URL}/login`, user)
             .then(res => {
                 alert(res.data.message)
                 setLoginUser(res.data.user)

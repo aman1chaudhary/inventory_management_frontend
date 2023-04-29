@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/inventory_management_frontend/static/css/main.ce71afae.css",
-    "main.js": "/inventory_management_frontend/static/js/main.ad9eaec6.js",
+    "main.js": "/inventory_management_frontend/static/js/main.69dd9f5c.js",
     "static/media/map3.jpeg": "/inventory_management_frontend/static/media/map3.53613caae596f88edc0a.jpeg",
     "static/media/map2.jpeg": "/inventory_management_frontend/static/media/map2.49b5216956d44fc87afe.jpeg",
     "static/media/logo.png": "/inventory_management_frontend/static/media/logo.4fc1146151b4a9c8801a.png",
@@ -16,10 +16,10 @@
     "static/media/marker-icon.png": "/inventory_management_frontend/static/media/marker-icon.d1d5ff99f264c4f1b8fb.png",
     "index.html": "/inventory_management_frontend/index.html",
     "main.ce71afae.css.map": "/inventory_management_frontend/static/css/main.ce71afae.css.map",
-    "main.ad9eaec6.js.map": "/inventory_management_frontend/static/js/main.ad9eaec6.js.map"
+    "main.69dd9f5c.js.map": "/inventory_management_frontend/static/js/main.69dd9f5c.js.map"
   },
   "entrypoints": [
     "static/css/main.ce71afae.css",
-    "static/js/main.ad9eaec6.js"
+    "static/js/main.69dd9f5c.js"
   ]
 }

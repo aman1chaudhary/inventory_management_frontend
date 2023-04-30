@@ -95,7 +95,7 @@ const MapLayout = () => {
     
     return (
         <div>
-            <div className=''>
+            <div className='map-page'>
                 <div className="row">
                     <div className="col-md-4">
                         <div className="zone-list">

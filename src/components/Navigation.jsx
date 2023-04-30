@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import "./Navigation.css"
 import Logo from "../assets/image/logo.png"
 import { FaBars, FaTimes } from 'react-icons/fa';
-import {  NavLink, useNavigate } from "react-router-dom";
+import {  Link, NavLink} from "react-router-dom";
 
 const Navigation = ({ user, setLoginUser }) => {
-    const navigate = useNavigate()
     const [showMenu, setShowMenu] = useState(false);
     const handleToggle = () => {
         setShowMenu(!showMenu);
@@ -19,6 +18,8 @@ const Navigation = ({ user, setLoginUser }) => {
     const handleLogout = () => {
         setLoginUser({});
         localStorage.removeItem('user');
+        window.scrollTo(0, 0);
+        setShowMenu(false);
     };
 
     return (
@@ -69,9 +70,9 @@ const Navigation = ({ user, setLoginUser }) => {
                             ) : (
                                 <>
                                     <li className="nav__item">
-                                        <button className="nav__link login-btn" onClick={() => navigate("/login")}>
+                                        <Link to="/login" className="nav__link login-btn" onClick={handleLinkClick}>
                                             Login
-                                        </button>
+                                        </Link>
                                         
                                     </li>
                                 </>
